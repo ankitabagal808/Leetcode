@@ -7,14 +7,12 @@ class Solution
 
         if(original.length != m*n)
             return new int[0][0];
-        else
+            
+       for(int i = 0 ; i < m; i++)
         {
-            for(int i = 0 ; i < m; i++)
+            for(int j = 0; j < n; j++)
             {
-                for(int j = 0; j < n; j++)
-                {
-                    ans[i][j] = original[k++];
-                }
+                ans[i][j] = original[k++];
             }
         }
         return ans;
