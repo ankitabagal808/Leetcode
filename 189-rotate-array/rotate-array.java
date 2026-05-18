@@ -17,15 +17,20 @@ class Solution
             nums[i] = result[i];
         }
 
-		/*int j = 0;
-		for(int i = 0; i < k ; i++)
-		{
-			int temp = nums[nums.length-1];
-			for(j = nums.length-1; j > 0; j--)
-			{
-				nums[j] = nums[j-1];
-			}
-			nums[j] = temp;
-		}*/
+
+        // // Important
+        // k = k % n;
+
+        // for(int i = 0; i < k; i++)
+        // {
+        //     int temp = nums[n - 1];
+
+        //     for(int j = n - 1; j > 0; j--)
+        //     {
+        //         nums[j] = nums[j - 1];
+        //     }
+
+        //     nums[0] = temp;
+        // }
     }
 }
