@@ -11,6 +11,7 @@ class Solution
                 for(int k = j+1; k < nums.length; k++)
                 {
                     int sum = nums[i] + nums[j] + nums[k];
+                    
                     if(Math.abs(target - sum) < Math.abs(target -closestsum))
                     {
                         closestsum = sum;
